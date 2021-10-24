@@ -1,0 +1,30 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather application that allows you to know the weather in the city of your choice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonEduard26/weather-app.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "npm",
+    "weather"
+  ],
+  "author": "Jhon Bocanegra <jhon.bocanegra26@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JhonEduard26/weather-app/issues"
+  },
+  "homepage": "https://github.com/JhonEduard26/weather-app#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.0"
+  }
+}
